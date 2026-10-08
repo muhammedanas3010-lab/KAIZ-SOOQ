@@ -1056,9 +1056,8 @@
             document.getElementById('dash-gross-profit').innerText = `₹${grossProf}`;
             document.getElementById('dash-total-profit').innerText = `₹${netProfit}`;
             document.getElementById('dash-owner-earning').innerText = `₹${totalOwner}`;
-            document.getElementById('dash-owner-orders-count').innerText = `from ${customers.length} orders`;
 
-            // Render Expenses Breakdown List (Enthinokke chelavu aayathu enn kaanikkാൻ)
+            // Render Expenses Breakdown List
             let expListHtml = '';
             (appData.expenses || []).forEach(ex => {
                 expListHtml += `
